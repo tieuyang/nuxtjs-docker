@@ -1,5 +1,5 @@
 # Dockerfile
-FROM node:11.13.0-alpine
+FROM node:lts-alpine
 
 # create destination directory
 RUN mkdir -p /usr/src/nuxt-app
@@ -19,4 +19,4 @@ EXPOSE 3000
 ENV NUXT_HOST=0.0.0.0
 ENV NUXT_PORT=3000
 
-CMD [ "npm", "start" ]
+# CMD [ "npm", "start" ]
