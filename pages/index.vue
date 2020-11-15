@@ -3,24 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">Yang IV</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <p class="subtitle">Dockerise Nuxt.js</p>
     </div>
   </div>
 </template>
@@ -45,14 +28,14 @@ export default {}
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: pink;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
-  color: #526488;
+  font-size: 20px;
+  color: #1f2123;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
