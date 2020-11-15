@@ -1,0 +1,11 @@
+$maxWidth: 1024px;
+
+@mixin wrapper {
+  margin: 0 auto;
+  max-width: $maxWidth;
+}
+
+@mixin wrapperStaticPage {
+  max-width: 576px;
+  margin: 0 auto;
+}
