@@ -35,6 +35,7 @@ export default {}
 .subtitle {
   font-weight: 300;
   font-size: 20px;
+  line-height: 24px;
   color: #1f2123;
   word-spacing: 5px;
   padding-bottom: 15px;
