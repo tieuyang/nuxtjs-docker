@@ -55,9 +55,9 @@ export default {
     color: $font-color;
     padding: $spacing;
     border-radius: $border-radius;
-    box-shadow: 0 0 0 1px rgba(26, 26, 26, 0.8);
-    -moz-box-shadow: 0 0 0 1px rgba(26, 26, 26, 0.8);
-    -webkit-box-shadow: 0 0 0 1px rgba(26, 26, 26, 0.8);
+    box-shadow: 0 0 0 2px rgba(26, 26, 26, 0.8);
+    -moz-box-shadow: 0 0 0 2px rgba(26, 26, 26, 0.8);
+    -webkit-box-shadow: 0 0 0 2px rgba(26, 26, 26, 0.8);
     -webkit-appearance: none;
     border: none;
     outline: none;
@@ -71,9 +71,9 @@ export default {
       font-weight: 500;
     }
     &:focus {
-      box-shadow: 0 0 0 1px $primary-color;
-      -moz-box-shadow: 0 0 0 1px $primary-color;
-      -webkit-box-shadow: 0 0 0 1px $primary-color;
+      box-shadow: 0 0 0 2px $primary-color;
+      -moz-box-shadow: 0 0 0 2px $primary-color;
+      -webkit-box-shadow: 0 0 0 2px $primary-color;
     }
 
     &:disabled {

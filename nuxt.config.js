@@ -11,7 +11,8 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap',
+        href:
+          'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap',
       },
     ],
   },
@@ -20,7 +21,7 @@ export default {
   css: ['@/styles/index.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: ['@/plugins/api'],
+  plugins: ['@/plugins/api', '@/plugins/vuelidate'],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -50,7 +51,7 @@ export default {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    baseURL: 'https://api-nodejs-todolist.herokuapp.com'
+    baseURL: 'https://api-nodejs-todolist.herokuapp.com',
   },
 
   auth: {
@@ -59,10 +60,10 @@ export default {
         endpoints: {
           login: { url: 'user/login', method: 'post', propertyName: 'token' },
           user: { url: 'user/me', method: 'get', propertyName: false },
-          logout: false
-        }
-      }
-    }
+          logout: false,
+        },
+      },
+    },
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)

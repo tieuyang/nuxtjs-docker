@@ -1,10 +1,7 @@
 <template>
   <div :class="$style.container">
-    <div v-if="isDisplayedErrorMessage('vrEmail')">
+    <div v-if="isDisplayedErrorMessage('email')">
       <slot name="error-msg-email">Email không đúng định dạng</slot>
-    </div>
-    <div v-if="isDisplayedErrorMessage('vrPhone')">
-      <slot name="error-msg-vr-phone">Số điện thoại không đúng định dạng</slot>
     </div>
 
     <div v-if="isDisplayedErrorMessage('required')">
