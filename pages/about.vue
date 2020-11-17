@@ -1,10 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
-      <h1 class="title">Yang IV</h1>
-      <p class="subtitle">Dockerise Nuxt.js</p>
-      <nuxt-link class="links" :to="{ name: 'about' }">Click here!</nuxt-link>
+      <h1 class="title">♥️ ♦️ ♣️ ♠️</h1>
     </div>
   </div>
 </template>
@@ -31,19 +28,5 @@ export default {}
   font-size: 100px;
   color: pink;
   letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 24px;
-  color: #1f2123;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-  color: pink;
 }
 </style>
