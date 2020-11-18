@@ -1,5 +1,5 @@
 # Dockerfile
-FROM khoahua/yiv-nuxtjs:1.0
+FROM node:lts-alpine
 
 # create destination directory
 RUN mkdir -p /usr/src/nuxt-app
