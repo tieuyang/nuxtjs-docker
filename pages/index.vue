@@ -40,6 +40,7 @@ export default {}
   color: #1f2123;
   word-spacing: 5px;
   padding-bottom: 15px;
+  font-style: italic;
 }
 
 .links {
