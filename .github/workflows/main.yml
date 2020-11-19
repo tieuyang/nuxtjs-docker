@@ -4,7 +4,7 @@ on:
     branches:
       - main
     tags:
-      - v4.0
+      - '*'
   pull_request:
 jobs:
   push_to_registry:
