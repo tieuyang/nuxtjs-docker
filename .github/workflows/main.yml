@@ -17,4 +17,4 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: khoahua/yiv-nuxtjs
-          tag_with_ref: true
+          tag_with_ref: $(date +%s)
