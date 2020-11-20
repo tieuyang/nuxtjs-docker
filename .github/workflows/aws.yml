@@ -47,5 +47,5 @@ jobs:
 
     - name: Deploy app
       id: deploy-app
-      run: |
-        ls
+      run:
+        docker-compose up --build --d
