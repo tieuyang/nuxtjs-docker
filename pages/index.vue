@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">Yang IV</h1>
-      <p class="subtitle">Dockerise Nuxt.js</p>
+      <p class="subtitle">Gút chóp, ờ mây ging!</p>
       <nuxt-link class="links" :to="{ name: 'about' }">Click here!</nuxt-link>
     </div>
   </div>
