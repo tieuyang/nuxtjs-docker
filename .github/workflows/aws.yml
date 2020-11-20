@@ -48,5 +48,4 @@ jobs:
     - name: Deploy app
       id: deploy-app
       run: |
-        cd nuxtjs-docker
-        docker-compose up --build --d
+        ls
