@@ -48,5 +48,6 @@ jobs:
     - name: Deploy app
       id: deploy-app
       run: |
-        git pull
+        git checkout feature/docker
+        git pull origin feature/docker
         docker-compose up --build --d
