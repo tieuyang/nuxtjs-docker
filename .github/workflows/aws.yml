@@ -25,7 +25,7 @@
 
 on:
   push:
-    branches: [ feature/docker ]
+    branches: [ cicd ]
 
 name: Deploy to Amazon ECS
 
