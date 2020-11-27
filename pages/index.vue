@@ -3,8 +3,8 @@
     <div>
       <Logo />
       <h1 class="title">Yang IV</h1>
-      <p class="subtitle">Gút chóp, ờ mây ging!</p>
-      <nuxt-link class="links" :to="{ name: 'about' }">Click here!</nuxt-link>
+      <p class="subtitle">Ờ mây zing, gút chóp!</p>
+      <nuxt-link class="links" :to="{ name: 'about' }">Bấm dô đi!</nuxt-link>
     </div>
   </div>
 </template>
@@ -36,7 +36,7 @@ export default {}
 .subtitle {
   font-weight: 300;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 32px;
   color: #1f2123;
   word-spacing: 5px;
   padding-bottom: 15px;
