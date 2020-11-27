@@ -2,7 +2,7 @@ version: "3"
 
 services:
   nuxt:
-    image: khoahua/yiv-nuxtjs:v6.0
+    image: khoahua/yiv-nuxtjs:v8.0
     container_name: nuxt
     restart: always
     env_file: .env
